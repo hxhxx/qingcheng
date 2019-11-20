@@ -1,0 +1,42 @@
+<!--pages/new/new.wxml-->
+<view class="top_bg">
+<!--banner-->
+<view class='banner'>
+ <swiper class='swp' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color='rgba(255,255,255,0.8)' indicator-active-color='rgba(254,88,88,0.8)'style="height:259rpx;">
+  <swiper-item><image mode="widthFix" src="/images/banner.png" class="slide-image"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="/images/banner.png" class="slide-image"/></swiper-item>
+</swiper>
+</view>
+<!--功能入口-->
+<view class="gl_rk">
+   <view class="rk1"><image mode="widthFix" src="/images/r1.png" class="slide-image"/><text>学车流程</text></view>
+   <view class="rk1"><image mode="widthFix" src="/images/r2.png" class="slide-image"/><text>平台简介</text></view>
+   <view class="rk1"><image mode="widthFix" src="/images/r3.png" class="slide-image"/><text>学车费用</text></view>
+   <view class="rk1"><image mode="widthFix" src="/images/r4.png" class="slide-image"/><text>驾考宝典</text></view>
+</view>
+</view>
+<!--lst-->
+<navigator url='../newlist/newlist'>
+<view class='new_m1'>
+    <view class='dt'><image mode="widthFix" src="/images/n1.png" class="slide-image"/></view>
+    <view class='new_bt'>学员心声</view>
+    <view class='jt'><image mode="widthFix" src="/images/jt.png" class="slide-image"/></view>
+</view>
+  </navigator>
+<!--lst-->
+<navigator url='../newlist/newlist'>
+<view class='new_m1'>
+    <view class='dt'><image mode="widthFix" src="/images/n2.png" class="slide-image"/></view>
+    <view class='new_bt'>教练心声</view>
+    <view class='jt'><image mode="widthFix" src="/images/jt.png" class="slide-image"/></view>
+</view>
+ </navigator>
+<!--lst-->
+<navigator url='../newlist/newlist'>
+<view class='new_m1'>
+    <view class='dt'><image mode="widthFix" src="/images/n3.png" class="slide-image"/></view>
+    <view class='new_bt'>招商加盟</view>
+    <view class='jt'><image mode="widthFix" src="/images/jt.png" class="slide-image"/></view>
+</view>
+</navigator>
+<view class='vihei'></view>

@@ -1,0 +1,31 @@
+
+<!--分类-->
+  <!--head-->
+  <view class='gong_hd'>
+    <scroll-view class='gongsc' scroll-x>
+      <view class='g_fls xq_hon' bindtap='tab'>学员心声</view>
+      <view class='g_fls xq_hoff' bindtap='tab'>教练心声</view>
+      <view class='g_fls xq_hoff' bindtap='tab'>招商加盟</view>
+    </scroll-view>
+  </view>
+  <!--list-->
+    <navigator url='../NewDetail/NewDetail'>
+    <view class='new_list'>
+     <view class='new_left'>
+        <view  class='new_tiel'>李雪-学车心声</view>
+        <view class='fa_tiem'>2019-08-19</view>
+     </view>
+     <view class='new_right'><image mode="widthFix" src="/images/tx.jpg" class="slide-image"/></view>
+    </view>
+  </navigator>
+    <!--list-->
+    <navigator url='../NewDetail/NewDetail'>
+    <view class='new_list'>
+     <view class='new_left'>
+        <view  class='new_tiel'>李雪-学车心声</view>
+        <view class='fa_tiem'>2019-08-19</view>
+     </view>
+     <view class='new_right'><image mode="widthFix" src="/images/tx.jpg" class="slide-image"/></view>
+    </view>
+  </navigator>
+  <view class='vihei'></view>

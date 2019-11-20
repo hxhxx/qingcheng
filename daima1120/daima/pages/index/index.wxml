@@ -1,0 +1,48 @@
+<!--index.wxml
+<view class="container" style="d">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+-->
+<view class="top_bg">
+<!--banner-->
+<view class='banner'>
+ <swiper class='swp' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color='rgba(255,255,255,0.8)' indicator-active-color='rgba(254,88,88,0.8)'style="height:259rpx;">
+  <swiper-item><image mode="widthFix" src="/images/banner.png" class="slide-image"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="/images/banner.png" class="slide-image"/></swiper-item>
+</swiper>
+</view>
+<!--功能入口-->
+<view class="gl_rk">
+  <view class="rk1"> <navigator url='../liucheng/liucheng'><image mode="widthFix" src="/images/r1.png" class="slide-image"/><text>学车流程</text></navigator></view> 
+   <view class="rk1"><navigator url='../jianjie/jianjie'><image mode="widthFix" src="/images/r2.png" class="slide-image"/><text>平台简介</text></navigator></view>
+  <view class="rk1"><navigator url='../feiyong/feiyong'><image mode="widthFix" src="/images/r3.png" class="slide-image"/><text>学车费用</text></navigator></view>
+  <view class="rk1"><navigator url='../baodian/baodian'><image mode="widthFix" src="/images/r4.png" class="slide-image"/><text>驾考宝典</text></navigator></view>
+</view>
+</view>
+<!--bao-->
+<view>
+  <view class="w_link">
+     <view class="ct"><navigator url='../baoming/baoming'><image mode="widthFix" src="/images/i1.png" class="slide-image"/><text>报名学车</text></navigator></view>
+  </view>
+  <view class="w_link">
+     <view class="ct"><image mode="widthFix" src="/images/i2.png" class="slide-image"/><text>训练场</text></view>
+  </view>
+  <view class="w_link">
+     <view class="ct"><image mode="widthFix" src="/images/i3.png" class="slide-image"/><text>预约练车</text></view>
+  </view>
+  <view class="w_link">
+     <view class="ct"><image mode="widthFix" src="/images/i4.png" class="slide-image"/><text>成为合伙人</text></view>
+  </view>
+</view>
+<view class='vihei'></view>
+
+

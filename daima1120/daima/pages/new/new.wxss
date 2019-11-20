@@ -1,0 +1,19 @@
+/* pages/new/new.wxss */
+page{background: #f7f7f7;}
+.banner{width: 94%;margin: 0 auto;padding-left: 3%;padding-right: 3%;padding-top: 22rpx;border-radius: 16rpx;overflow: hidden;}
+.banner image{width: 100%;}
+.top_bg{background: #fff}
+.gl_rk{display: flex;flex-direction: row;}
+.rk1{width: 20%;margin-left: 2.5%;margin-right: 2.5%;text-align: center;font-size: 31rpx;}
+.rk1 image{width: 70%;}
+.rk1 text{padding-top:10rpx;display: block;color: #2e2f33}
+.gl_rk{padding-top: 20rpx;padding-bottom: 36rpx;}
+.new_m1{margin-left: 3%;margin-right: 3%;background: #fff;border-radius: 16rpx;overflow: hidden;margin-top: 26rpx;display:flex;flex-direction: row;padding-top: 28rpx;padding-bottom: 27rpx;}
+.dt{margin-left: 4%;width: 17%;display: flex;}
+.dt image{width: 100%;}
+.new_bt{width: 66%;font-size: 37rpx;color: #2e2f33;display: flex;padding-left: 5%;padding-top: 39rpx; }
+.jt{width: 5%;display: flex;padding-top: 39rpx;}
+.jt image{width: 100%;}
+.vihei{height: 30rpx;}
+.usermz{font-weight: bold}
+.usermz{font-weight: bold}

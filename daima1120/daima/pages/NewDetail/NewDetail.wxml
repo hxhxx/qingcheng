@@ -1,0 +1,13 @@
+<!--pages/NewDetail/NewDetail.wxml-->
+<view class='mian'>
+   <!--标题-->
+    <view class='new_de_bt'>李雪-学车心声</view>
+    <!--信息-->
+    <view class='new_xx'>
+ 时间:2019-08-19 
+    </view>
+     <view class='new_det'>
+     北京时间11月20日，据独行侠官网记者德旺-普莱斯报道，独行侠主教练里克-卡莱尔被问及卢卡-东契奇是否应该进入本赛季MVP的讨论行列，他表示他对奖项不感兴趣，但是东契奇应该进入MVP的讨论行列。
+     </view>
+</view>
+<view class='vihei'></view>

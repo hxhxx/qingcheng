@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "images",
+    "pages/my/my",
+    "pages/new/new",
+    "pages/newlist/newlist",
+    "pages/NewDetail/NewDetail",
+    "pages/liucheng/liucheng",
+    "pages/jianjie/jianjie",
+    "pages/feiyong/feiyong",
+    "pages/baodian/baodian",
+    "pages/baoming/baoming"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00cc88",
+    "navigationBarTitleText": "青橙学车",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#3e3e3e",
+    "selectedColor": "#00cc88",
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "青橙学车",
+        "iconPath": "images/bt1.png",
+        "selectedIconPath": "images/bt1_on.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "青橙资讯",
+        "iconPath": "images/bt2.png",
+        "selectedIconPath": "images/bt2_on.png",
+        "pagePath": "pages/new/new"
+      },
+      {
+        "text": "个人中心",
+        "iconPath": "images/bt3.png",
+        "selectedIconPath": "images/bt3_on.png",
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

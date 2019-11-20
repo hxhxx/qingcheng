@@ -1,0 +1,22 @@
+/* pages/my/my.wxss */
+page{background: #f7f7f7;}
+.user{margin: 19rpx 3% 29rpx 3%;background: #00d992;border-radius: 20rpx;display: flex;flex-direction: row;padding: 28rpx 3%;padding-bottom: 21rpx; }
+.usertx{width: 22%;}
+.usertx image{width: 100%;border-radius: 50%;border: solid 6rpx #04efa1}
+.userifo{width: 72%;margin-left: 5%;color: #fff}
+.gz{color: #fff;font-size: 32rpx;}
+.usermz{font-weight: bold}
+.gz{padding-left: 1%;padding-right: 1%;color: #abead5}
+.user_ns{padding-top: 34rpx;font-size: 34rpx;}
+.tx{padding-top: 26rpx;color: #fff;font-size: 32rpx; }
+.ky{font-weight: bold;color: #fff558;}
+.tkbtn{margin-left: 4%;background: #ff670b;border-radius: 6rpx;color: #fff;padding: 2rpx 12rpx;}
+.gongl{background: #fff;margin: 0rpx 3% 20rpx 3%;border-radius:20rpx;font-size: 34rpx;}
+.g1{border-right: 1px solid #f1f1f1;width: 32.5%;float: left;height: 260rpx;text-align: center}
+.g2{width: 32.5%;float: left;height: 260rpx;text-align: center}
+.g3{width: 32.5%;float: left;height: 260rpx;text-align: center;border-right: 1px solid #f1f1f1;}
+.p{border-bottom: 1px solid #f1f1f1;}
+.cl{height: 0rpx;width: 0rpx;clear: both}
+.glimg{width: 36%;padding-top: 59rpx;text-align: center;margin: 0 auto}
+.glimg image{width: 100%;}
+.glname{padding-top:12rpx;font-size: 34rpx;color: #171717}

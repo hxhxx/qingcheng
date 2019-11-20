@@ -1,0 +1,15 @@
+/* pages/newlist/newlist.wxss */
+page{background: #f7f7f7;}
+.gongc{margin-top: 13rpx;}
+.gong_hd{ background: #fff;height: 88rpx;line-height: 88rpx;border-bottom:solid 1px #e7e8ea;border-top:solid 1px #e7e8ea;}
+.gongsc{white-space:nowrap;}
+.g_fls{display: inline-block;width: 25%;margin-left: 4%;margin-right: 4%;font-size: 30rpx;text-align: center}
+.xq_hon{ border-bottom: 3rpx solid #00cc88;color: #00cc88; height: 84rpx;line-height: 84rpx;font-size: 32rpx;}
+.xq_hoff{ color: #272727;height: 84rpx;line-height: 84rpx;font-size: 32rpx;}
+.new_list{ border-radius: 4rpx; margin:18rpx 2% 0rpx 2%; background: #fff;padding: 22rpx;display: flex;flex-direction: row}
+.new_left{width:73%;padding-right: 5%;}
+.new_right{width:22%;}
+.new_right image{width: 100%;border-radius: 4rpx;}
+.new_tiel{font-size: 35rpx; color: #131313;line-height: 48rpx;}
+.fa_tiem{color: #bdbdbd;font-size: 28rpx;padding-top: 38rpx;}
+.vihei{height: 30rpx;}

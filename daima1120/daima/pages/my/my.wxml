@@ -1,0 +1,66 @@
+<!--pages/my/my.wxml-->
+<view class="user">
+   <view class="usertx"><image mode="widthFix" src="/images/tx.jpg" class="slide-image"/></view>
+   <view class="userifo">
+      <view class="user_ns"><text class="usermz">小肥猫</text><text class="gz">|</text>累计佣金：3000元</view>
+       <view class="tx">可提佣金：<text class="ky">1200</text>元<text class="tkbtn">提款</text></view>
+   </view>
+</view>
+<view class="gongl">
+<view class="p">
+  <!--1-->
+  <view class="g1">
+    <view class="glimg"><image mode="widthFix" src="/images/u1.png" class="slide-image"/></view>
+    <view class="glname">我的预约</view>
+  </view>
+  <!--1-->
+  <view class="g1">
+    <view class="glimg"><image mode="widthFix" src="/images/u2.png" class="slide-image"/></view>
+    <view class="glname">二维码</view>
+  </view>
+  <!--1-->
+  <view class="g2">
+    <view class="glimg"><image mode="widthFix" src="/images/u3.png" class="slide-image"/></view>
+    <view class="glname">我的团队</view>
+  </view>
+  <view class="cl"></view>
+   </view>
+    <!--1-->
+    <view class="p">
+  <view class="g1">
+    <view class="glimg"><image mode="widthFix" src="/images/u4.png" class="slide-image"/></view>
+    <view class="glname">分销订单</view>
+  </view>
+  <!--1-->
+  <view class="g1">
+    <view class="glimg"><image mode="widthFix" src="/images/u5.png" class="slide-image"/></view>
+    <view class="glname">学习进程</view>
+  </view>
+  <!--1-->
+  <view class="g2">
+    <view class="glimg"><image mode="widthFix" src="/images/u6.png" class="slide-image"/></view>
+    <view class="glname">我的客服</view>
+  </view>
+  <view class="cl"></view>
+    </view>
+    <!--1-->
+ 
+  <view class="g3">
+    <view class="glimg"><image mode="widthFix" src="/images/u7.png" class="slide-image"/></view>
+    <view class="glname">优惠券</view>
+  </view>
+     <!--1-->
+  <view class="g3">
+    <view class="glimg"><image mode="widthFix" src="/images/u8.png" class="slide-image"/></view>
+    <view class="glname">反馈建议</view>
+  </view>
+     <!--1-->
+  <view class="g2">
+    <view class="glimg"><image mode="widthFix" src="/images/u9.png" class="slide-image"/></view>
+    <view class="glname">我是教练</view>
+  </view>
+  <view class="cl"></view>
+
+  
+  
+</view>
